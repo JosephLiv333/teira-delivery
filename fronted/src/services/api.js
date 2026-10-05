@@ -1,5 +1,5 @@
-const API_URL = import.meta.env.VITE_API_URL || 'https://teira-delivery.vercel.app/api/deliveries';
 
+const API_URL = import.meta.env.VITE_API_URL || 'https://teira-delivery.vercel/api/deliveries';
 
 export const getStats = async () => {
   try {
